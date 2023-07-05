@@ -4,12 +4,15 @@
     "author": "BL-IT",
     "version": "0.1.0",
     "private": true,
+    "homepage": "http://leclercb.github.io/taskunifier-web",
     "scripts": {
         "start": "craco start",
         "build": "craco build",
         "lint": "eslint src",
         "test": "craco test",
-        "postinstall": "husky install"
+        "postinstall": "husky install",
+        "predeploy" : "npm run build",
+        "deploy" : "gh-pages -d build",
     },
     "dependencies": {
         "@craco/craco": "^6.4.3",
@@ -42,6 +45,7 @@
         "eslint": "^7.32.0",
         "eslint-plugin-react": "^7.28.0",
         "eslint-plugin-react-hooks": "^4.3.0",
+        "gh-pages": "^5.0.0",
         "husky": "^7.0.4",
         "react-test-renderer": "^17.0.2"
     },
