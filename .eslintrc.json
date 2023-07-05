@@ -1,0 +1,101 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true,
+        "jest": true,
+        "node": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended"
+    ],
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly"
+    },
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react",
+        "react-hooks"
+    ],
+    "rules": {
+        "comma-dangle": [
+            "error",
+            "never"
+        ],
+        "indent": [
+            "off",
+            4
+        ],
+        "jsx-quotes": [
+            "error",
+            "prefer-double"
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "object-shorthand": [
+            "error",
+            "always"
+        ],
+        "prefer-destructuring": [
+            "error"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "react/jsx-wrap-multilines": [
+            "error",
+            {
+                "declaration": "parens-new-line",
+                "assignment": "parens-new-line",
+                "return": "parens-new-line",
+                "arrow": "parens-new-line",
+                "condition": "parens-new-line",
+                "logical": "parens-new-line",
+                "prop": "parens-new-line"
+            }
+        ],
+        "react/no-array-index-key": [
+            "error"
+        ],
+        "react/require-render-return": [
+            "error"
+        ],
+        "react/self-closing-comp": [
+            "error"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "sort-imports": [
+            "error",
+            {
+                "ignoreCase": false,
+                "ignoreDeclarationSort": true,
+                "ignoreMemberSort": false,
+                "memberSyntaxSortOrder": [
+                    "all",
+                    "single",
+                    "multiple",
+                    "none"
+                ]
+            }
+        ]
+    },
+    "settings": {
+        "react": {
+            "version": "detect"
+        }
+    }
+}

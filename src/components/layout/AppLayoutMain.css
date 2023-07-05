@@ -1,0 +1,145 @@
+a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+div.block {
+    padding-top: 40px;
+    padding-bottom: 50px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+div.block-title {
+    margin: 0px auto 0px auto;
+    padding: 0px 20px;
+    margin-bottom: 30px;
+    max-width: 900px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+div.block-content {
+    margin: 0px auto 0px auto;
+    padding: 0px 20px;
+    max-width: 900px;
+    text-align: center;
+}
+
+div.element div.text {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+div.element div.image-small, div.element div.image-big {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+div.element-title {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+div.element-title.small {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+@media only screen and (min-width: 750px) {
+    div.element div.image-small svg {
+        font-size: 48px;
+    }
+    div.element div.image-big svg {
+        font-size: 160px;
+    }
+}
+
+@media only screen and (max-width: 749px) {
+    div.element div.image-small svg {
+        font-size: 48px;
+    }
+    div.element div.image-big svg {
+        font-size: 100px;
+    }
+}
+
+div.white {
+    background-color: transparent;
+    color: #000000;
+}
+
+div.red {
+    background-color: red;
+    color: #ffffff;
+}
+
+div.blue {
+    background-color: rgba(200, 229, 252, 0.5);
+    color: #586069;
+}
+
+div.blue a, div.blue h1, div.blue h2, div.blue h3, div.blue h4, div.blue h5 {
+    color: #24292e;
+}
+
+h1.title {
+    color: #0e67c4;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+h2.title {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+h3.title {
+    font-size: 20px;
+    font-weight: normal;
+    margin: 0px 0px 50px 0px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 20px 0px 10px 0px;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 20px 0px 10px 0px;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 20px 0px 10px 0px;
+}
+
+h5 {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 20px 0px 10px 0px;
+}
+
+.paragraph {
+    margin-left: 25px;
+}
+
+.warning {
+    font-weight: bold;
+    color: red;
+}

@@ -1,0 +1,13 @@
+input.stealth {
+    font-size: 30px;
+    background-color: transparent;
+    border: 0px;
+    color: transparent;
+    outline: none;
+    text-align: center;
+    text-shadow: 0 0 0 rgb(0, 0, 0);
+}
+
+input.stealth:focus {
+    outline: none;
+}

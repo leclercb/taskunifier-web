@@ -1,0 +1,46 @@
+/* And Design */
+
+.ant-layout {
+    background: transparent;
+}
+
+.ant-layout-header {
+    height: 46px;
+    line-height: 46px;
+    background: #535353 !important;
+}
+
+.ant-layout-footer {
+    padding: 0px;
+}
+
+.ant-menu-dark,
+.ant-menu-dark .ant-menu-sub {
+    color: #ffffff;
+    background: #535353 !important;
+    text-align: center;
+}
+
+.ant-menu-dark svg {
+    color: #bdd6ff !important;
+}
+
+.ant-menu-dark a {
+    color: #ffffff !important;
+    text-decoration: none !important;
+}
+
+.ant-menu-dark a:hover {
+    text-decoration: underline;
+}
+
+.ant-form label {
+    font-size: 14px !important;
+}
+
+/* React Image Gallery */
+
+.image-gallery-left-nav::before,
+.image-gallery-right-nav::before {
+    text-shadow: -1px 0 #444444, 0 1px #444444, 1px 0 #444444, 0 -1px #444444 !important;
+}

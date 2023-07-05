@@ -1,0 +1,32 @@
+.main-link {
+    display: inline-block;
+    border: 2px solid #0e67c4;
+    background-color: #0e67c4;
+    color: #ffffff;
+    height: 36px;
+    line-height: 32px;
+    padding: 0 18px;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 800;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.main-link.bright {
+    color: #0e67c4;
+    background-color: transparent;
+}
+
+.main-link.big {
+    height: 54px;
+    line-height: 49px;
+    padding: 0 24px;
+    border-radius: 3px;
+}
+
+.main-link:hover {
+    color: #ffffff;
+    border: 2px solid #0c57a7;
+    background-color: #0c57a7 !important;
+}
