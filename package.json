@@ -11,8 +11,8 @@
         "lint": "eslint src",
         "test": "craco test",
         "postinstall": "husky install",
-        "predeploy" : "npm run build",
-        "deploy" : "gh-pages -d build",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
     },
     "dependencies": {
         "@craco/craco": "^6.4.3",
