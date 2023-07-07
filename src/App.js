@@ -1,7 +1,7 @@
 import React from 'react';
 import { Spin } from 'antd';
 import qs from 'qs';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 import Block from 'components/common/Block';
 import BlockContent from 'components/common/BlockContent';
 import AppLayout from 'components/layout/AppLayout';
@@ -42,7 +42,7 @@ function App() {
     };
 
     return (
-        <BrowserRouter>
+        <HashRouter>
             <Switch>
                 <Route
                     path="/"
@@ -107,7 +107,7 @@ function App() {
                 <Route
                     render={() => wrap(<PageNotFound />)} />
             </Switch>
-        </BrowserRouter>
+        </HashRouter>
     );
 }
 
