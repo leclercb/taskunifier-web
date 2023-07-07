@@ -4,7 +4,7 @@
     "author": "BL-IT",
     "version": "0.1.0",
     "private": true,
-    "homepage": "http://leclercb.github.io/taskunifier-web",
+    "homepage": "https://leclercb.github.io/taskunifier-web",
     "scripts": {
         "start": "craco start",
         "build": "craco build",
