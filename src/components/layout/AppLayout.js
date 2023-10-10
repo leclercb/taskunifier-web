@@ -112,7 +112,7 @@ function AppLayout({ children }) {
                             <div style={{ width: '100%', position: 'relative' }}>
                                 <MediaQuery minWidth={750}>
                                     <img
-                                        src="/resources/images/logo.png"
+                                        src="resources/images/logo.png"
                                         alt="Logo"
                                         style={{
                                             position: 'absolute',
@@ -127,7 +127,7 @@ function AppLayout({ children }) {
                                         marginBottom: 40
                                     }}>
                                         <img
-                                            src="/resources/images/logo.png"
+                                            src="resources/images/logo.png"
                                             alt="Logo"
                                             style={{ height: 80 }} />
                                     </div>

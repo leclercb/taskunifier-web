@@ -33,7 +33,7 @@ function Home() {
                         showFullscreenButton={false}
                         slideInterval={5000}
                         items={['01', '02', '03', '04', '05', '06'].map(item => ({
-                            original: `/resources/images/gallery/screenshot_${item}.png`
+                            original: `resources/images/gallery/screenshot_${item}.png`
                         }))} />
                 </BlockContent>
             </Block>
