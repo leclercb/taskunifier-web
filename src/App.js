@@ -47,8 +47,8 @@ function App() {
                 <Route
                     path="/"
                     exact={true}
-                    render={({ location }) => {
-                        const query = qs.parse(location.search.substr(1));
+                    render={() => {
+                        const query = qs.parse(window.location.search.substr(1));
 
                         if (query.code) {
                             return wrap(
