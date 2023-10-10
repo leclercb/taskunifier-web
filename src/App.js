@@ -47,7 +47,17 @@ function App() {
                 <Route
                     path="/"
                     exact={true}
-                    render={() => wrap(<Home />)} />
+                    render={({ location }) => {
+                        const query = qs.parse(location.search.substr(1));
+
+                        if (query.code) {
+                            return wrap(
+                                <Code code={query.code} />
+                            );
+                        }
+
+                        return wrap(<Home />);
+                    }} />
                 <Route
                     path="/cloud"
                     exact={true}
